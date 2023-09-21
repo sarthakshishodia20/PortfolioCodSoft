@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="portfolio.png" alt="" class="logo" height="50" width="150"> -->
+                <h1>Port<span>folio</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home&#127968;</a></li>
+                    <li><a href="#about">About👤</a></li>
+                    <li><a href="#services">Learnings🥇</a></li>
+
+                    <li><a href="#portfolio">My Work📒</a></li>
+                    <li><a href="#contact">Contact ☎</a></li>
+                
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <hr>
+            <hr>
+            <div class="header-text">
+                <p>FrontEnd Web Developer</p>
+                <h1>Hi!😃 I am <span>Sarthak Shishodia</span> <br>From Bulandshahar  .....<i class="fa-solid fa-city">...</i></h1>
+                <div class="backimg"><img src="sar-removebg-preview__1_-removebg-preview__2_-removebg-preview-removebg-preview.png" alt="" width="300" height="300" style="border-radius: 5%; margin-bottom: 90px;"></div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------about------------------------------ -->
+    <div id="about">
+        <div class="coontainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="sar1..png" alt="" height="300" width="300"> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" id="ab">About Me 👤 </h1>
+                    <p id="about">I am an engineering student pursuing B.Tech. in Computer Science & Engineering from GLA University, Mathura. I want to explore all the areas of engineering, so that I can choose a proper domain in which I can pursue my career. I am right now trying my hand in WEB DEVELOPMENT . Now, I am seeing my career WEB DEVELOPMENT .It is a great field of interest of mine right now.</p>
+
+                    <div class="tab-titles"> 
+                        <p class="tab-links active-link" onclick="opentab('skills')" style="color:cornflowerblue; font-size: 30px;" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" style="color:cornflowerblue; font-size: 30px;">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" style="color:cornflowerblue; font-size: 30px;">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FrontEnd-</span><br>Developer</li>
+                            <li><span>Java- </span><br>Developer</li>
+                            <li><span>Content-</span><br>Writer</li>
+                            <li><span>Typist-</span><br>40 words per min.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Codsoft Intern:</span><br>Present</li>
+                            <li><span>Bharat Intern:</span><br>Present</li>
+                            <li><span>HTML & CSS:</span><br>2 Months</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current-</span><br>Pursuing B.Tech from G.L.A University Mathura</li>
+                            <li><span>Class 10-</span><br>2020 From N.R.P.S</li>
+                            <li><span>Class 12-</span><br>2022 From N.R.P.S</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------services-----------------
+ -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">-------------My Learnings🥇---------------</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2 style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;">FrontEnd Development</h2>
+                <p>I have an advanced knowledge in HTML5 , intermediate knowledge in CSS and basic knowledge in JavaScript...</p>
+                <a href="#">Learn More .</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2 style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Java</h2>
+                <p>Since It's beginning of my JAVA journey i know the basic concepts till now...</p>
+                <a href="#">Learn More .</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2 style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Python</h2>
+                <p>I am good in basic concepts of Python also i achieved 5★ on Hackerrank  platform...</p>
+                <a href="#">Learn More .</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- ----------------------------portfolio------------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">------------------My Work📒---------------</h1>
+        <div class="worklist">
+            <div class="work">
+                <!-- <img src="work1.png" alt="" height="300" width="250"> -->
+                <video src="unacademywebsite.mp4" autoplay muted infinite></video>
+                <p class="para1">🏆Unacademy Website Clone</p>
+                <div class="layer">
+                    <h3>UNACADEMY WEBSITE</h3>
+                    <!-- <p>"🚀 Proud to announce the launch of my very own online learning platform, inspired by the incredible journey of @unacademy! 📚💻 Get ready to unlock endless opportunities for knowledge and growth. Join me on this exciting educational adventure! 💡 #MyUnacademy #EmpoweringEducation"</p> -->
+                    <p>Created Using HTML and CSS <br> Time Taken: 5 Hours</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <!-- <img src="work2.png" alt="" height="300" width="250"> -->
+                <video src="uber.mp4" autoplay muted infinite></video>
+                <p class="para1">🚗Uber Website Clone</p>
+                <div class="layer">
+                <h3>UBER WEBSITE</h3>
+                <p>created Using HTML and CSS <br> Time taken: 6 Hours</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <!-- <img src="work3.png" alt="" height="300" width="250"> -->
+                <video src="coco.mp4" autoplay muted  infinite></video>
+                <p class="para1">🍺Pepsi Website Clone</p>
+                <div class="layer">
+                <h3>COCA LANDING PAGE</h3>
+                <p>Created Using HTML, CSS and JAVASCRIPT <br> Time Taken: 2.5 Hours</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a><hr>
+    </div>
+</div>
+<!-- ----------------------contact------------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 id="contactme"> Contact Me  ☎</h1>
+                <p><i class="fa-solid fa-paper-plane" id="email"></i> sarthakshishodia2004@gmail.com</p>
+                <!-- <p><i class="fa-solid fa-paper-plane"></i> sarthakshishodia2002@gmail.com</p> -->
+                <p><i class="fa-solid fa-phone" id="phone"></i> +91 9548626705</p><br>
+                <!-- <p><i class="fa-solid fa-phone"></i> +91 8868858523</p> -->
+                <div class="socialicons">
+                    <a href="https://www.instagram.com/sarthak_shishodia/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="linkedin.com/in/sarthak-shishodia-28b01524b"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="Sarthak's Resume-hackerresume (2).pdf" class="btn btn2" id="download" download="Sarthak's CV">Download CV</a><!--  isme kch nahi krna bs cv ki link daalni hai or download likhna h bs -->
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-Mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2" id="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+
+        
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Sarthak. Made by me <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemneu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwoReIEKh6EWuj3Q5MXa75BCftYTtqhoe4JznPIcwUMLbvgYylonKGslou3VvIqq8DM/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                  msg.innerHTML="Message sent successfully"
+                  setTimeout(function(){
+                    msg.innerHTML=""
+                  },5000)
+                  form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script src="https://kit.fontawesome.com/9821360b8a.js" crossorigin="anonymous"></script>
+</body>
+</html>
